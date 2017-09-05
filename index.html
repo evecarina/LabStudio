@@ -10,7 +10,8 @@
 
 </head>
 <body>
-<nav class="navbar navbar-inverse">
+<section id="navbar">
+<nav class="navbar navbar-inverse navbar-fixed-top"  >
   <div class="container-fluid" id="nav1">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -22,16 +23,17 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar"  >
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="active"><a href="#navbar">Home</a></li>
+        <li><a href="#servicio">Services</a></li>
+        <li><a href="#portafolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contacto">Contact</a></li>
       </ul>
 
     </div>
   </div>
+  </nav>
 <div id="texto">
     <h3>Welcome To Our Studio!</h3>
     <h1>IT´S NICE TOO ME YOU</h1>
@@ -42,7 +44,7 @@
   <img src="img/header-bg.jpg" alt="...">
   <div class="carousel-caption d-none d-md-block" ></div>
 </div>
-  </nav>
+</section>
 
 <!-- <div class="foto" class="col-sm-12">
 	<img src="img/header-bg.jpg" alt=""" alt="foto" />
@@ -56,7 +58,7 @@
 
 
 <!-- Seccion container -->
-<section class="container">
+<section class="container" id="servicio">
 
 <div class="row">
     <div class="col-md-12" >
@@ -88,7 +90,7 @@
 </section >
 
 
-<section class="portafolio">
+<section class="portafolio" id="portafolio">
 
 <div class="row">
     <div class="col-md-12" >
@@ -165,7 +167,7 @@
 </section>
  -->
  <!-- seccion about  -->
-<section class="about" class="container">
+<section class="about" class="container id="about">
  <div class="media">
   <div class="media-left media-middle">
     <a href="#">
@@ -196,7 +198,7 @@
 
 <!-- seccion team -->
 
-<section class="team">
+<section class="team" id="team">
 
 <div class="row">
     <div class="col-md-12" >
@@ -267,7 +269,7 @@
 </section>
 
 <!-- contacto -->
-<section class="cont">
+<section class="cont" id="contacto">
 
  <div class="row">
  	<div class="col-md-6">
@@ -291,13 +293,13 @@
  	</div>
 
  </div>
-  <button id="enviar">SEE MESSAGE</button>
+
 
 <div class="carousel-item">
   <img src="img/map-image.png" alt="...">
   <div class="carousel-caption d-none d-md-block"></div>
  </div>
-
+<button id="enviar" class="btn-warning">SEE MESSAGE</button>
 </section>
 
 
