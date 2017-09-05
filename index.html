@@ -20,7 +20,7 @@
       </button>
       <a class="navbar-brand" href="#">Star Bootstrap</a>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
+    <div class="collapse navbar-collapse" id="myNavbar"  >
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#">Services</a></li>
@@ -32,13 +32,15 @@
 
     </div>
   </div>
-  <div class="carousel-item">
-  <img src="img/header-bg.jpg" alt="...">
-  <div class="carousel-caption d-none d-md-block">
+<div id="texto">
     <h3>Welcome To Our Studio!</h3>
     <h1>IT´S NICE TOO ME YOU</h1>
-    <button>TELL ME MORE</button>
-  </div>
+    <button class="btn-warning">TELL ME MORE</button>
+
+</div>
+<div class="carousel-item">
+  <img src="img/header-bg.jpg" alt="...">
+  <div class="carousel-caption d-none d-md-block" ></div>
 </div>
   </nav>
 
@@ -63,7 +65,7 @@
     </div>
 	<div class="col-md-4">
 		<div class="servicio text-center">
-		<i class="glyphicon glyphicon-shopping-cart"></i>
+		<i class="glyphicon glyphicon-shopping-cart" ></i>
 		<h3>E-Comerce</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ad unde, quas. Autem magnam, ratione dolore illum quo, quasi, illo molestias natus dolorem, suscipit soluta dolorum. Fugit illum iure repellendus!</p>
 		</div>
@@ -242,46 +244,64 @@
 <!-- aspiciadores -->
 
 
-<section class="aspiciadores">
+<section class="auspiciador">
 
 <div class="row">
 
 	<div class="col-md-3">
-		<div class="servicio text-center">
 		<img src="img/envato.jpg" alt="" class="img-circle">
-		</div>
+
 	</div>
 	<div class="col-md-3">
-		<div class="servicio text-center">
 		<img src="img/creative-market.jpg" alt="" class="img-circle">
-		</div>
 	</div>
 	<div class="col-md-3">
-		<div class="servicio text-center">
 		<img src="img/designmodo.jpg" alt="" class="img-circle">
-		</div>
 	</div>
 	<div class="col-md-3">
-		<div class="servicio text-center">
 		<img src="img/themeforest.jpg" alt="" class="img-circle">
-		</div>
 	</div>
 
-	</div>
+
 </div>
 </section>
+
 <!-- contacto -->
-<section class="contacto">
+<section class="cont">
 
-<div class="row">
-<div class="col-md-12" >
-    	<p class="text-center">CONTACT US</p>
-    	<p class="text-center">Lorem ipsum dolor sit amet, consectetur: </p>
-    </div>
+ <div class="row">
+ 	<div class="col-md-6">
 
+ 	<div class="input-group">
+   <span class="input-group-addon" id="basic-addon1">@</span>
+  <input id ="nombre" type="text" class="form-control" placeholder="YourName" aria-describedby="basic-addon1">
+   </div>
+   <div class="input-group">
+   <span class="input-group-addon" id="basic-addon1">@</span>
+  <input id ="email" type="text" class="form-control" placeholder="YourEmail" aria-describedby="basic-addon1">
+   </div>
+   <div class="input-group">
+   <span class="input-group-addon" id="basic-addon1">@</span>
+  <input id="numero" type="text" class="form-control" placeholder="YourPhone" aria-describedby="basic-addon1">
+   </div>
 
-</div>
+ 	</div>
+ 	<div class="col-md-6" id="col2">
+ 		<input type="text"  placeholder="MESSAGE">
+ 	</div>
+
+ </div>
+  <button id="enviar">SEE MESSAGE</button>
+
+<div class="carousel-item">
+  <img src="img/map-image.png" alt="...">
+  <div class="carousel-caption d-none d-md-block"></div>
+ </div>
+
 </section>
+
+
+
 
 
 
